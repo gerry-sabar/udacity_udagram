@@ -1,3 +1,15 @@
+# Project assignment
+1. root project can be accessed here: 
+http://udagram-project-dev.us-east-1.elasticbeanstalk.com/
+
+2. Image filtering can be accessed here (please make sure you add image_url parameter & add correct URL, otherwise validation from express validation will be triggered):
+http://udagram-project-dev.us-east-1.elasticbeanstalk.com/api/v0/filter_image?image_url={IMAGE_URL_HERE}
+
+example:
+http://udagram-project-dev.us-east-1.elasticbeanstalk.com/api/v0/filter_image?image_url=https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
+
+
+
 # Udagram Image Filtering Microservice
 
 Udagram is a simple cloud application developed alongside the Udacity Cloud Engineering Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.

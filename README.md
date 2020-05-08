@@ -5,6 +5,8 @@ http://udagram-project-dev.us-east-1.elasticbeanstalk.com/
 2. Image filtering can be accessed here (please make sure you add image_url parameter & add correct URL, otherwise validation from express validation will be triggered):
 http://udagram-project-dev.us-east-1.elasticbeanstalk.com/api/v0/filter_image?image_url={IMAGE_URL_HERE}
 
+3. Github repository can be accessed here: https://github.com/gerry-sabar/udacity_udagram
+
 example:
 http://udagram-project-dev.us-east-1.elasticbeanstalk.com/api/v0/filter_image?image_url=https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
 
